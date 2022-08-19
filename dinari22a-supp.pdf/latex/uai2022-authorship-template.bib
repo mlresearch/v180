@@ -1,0 +1,9 @@
+@InProceedings{dinari_412,
+    title = {Variational- and metric-based deep latent space  for out-of-distribution detection},
+    author = {Dinari, Or and Freifeld, Oren},
+    abstract = {One popular deep-learning approach for the task of Out-Of-Distribution (OOD) detection is based on thresholding the values of per-class Gaussian likelihood of deep features. However, two issues arise with that approach: first, the distributions are often far from being Gaussian; second, many OOD data points 
+fall within the effective support of the known classes' Gaussians. Thus, either way it is hard to find a good threshold. In contrast, our proposed solution for OOD detection is based on a new latent space where: 1) each known class is well captured by a nearly-isotropic Gaussian; 2) those Gaussians are far from each other and from the origin of the space (together, these properties effectively leave the area around the origin free for OOD data). Concretely, given a (possibly-trained) backbone deep net of choice, we use it to train a conditional variational model via a Kullback Leibler loss, a triplet loss, and a new distancing loss that pushes classes away from each other.  During inference, the class-dependent log-likelihood values of a deep feature ensemble of the test point are also weighted based on reconstruction errors, improving further the decision rule. Experiments on popular benchmarks show that our method yields state-of-the-art results, a feat achieved despite the fact that, unlike some competitors, we make no use of OOD data for training or hyperparameter tuning. Our code is available at~\url{https://github.com/BGU-CS-VIL/vmdls}.}
+}
+
+%%Note that this template only has some fields. Other fields will be added automatically. 
+

@@ -1,0 +1,83 @@
+---
+booktitle: Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial
+  Intelligence
+shortname: UAI
+volume: '180'
+year: '2022'
+start: 2022-08-01
+end: 2022-08-05
+published: 2022-08-17
+conference_number: '38'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2022
+month: 0
+cycles: false
+bibtex_editor: Cussens, James and Zhang, Kun
+editor:
+- given: James
+  family: Cussens
+- given: Kun
+  family: Zhang
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Thirty-Eighth Conference on Uncertainty in Artificial Intelligence
+    Held in Eindhoven, The Netherlands on 01-05 August 2022
+
+  Published as Volume 180 by the Proceedings of Machine Learning Research on 17 August 2022.
+
+  Volume Edited by:
+    James Cussens
+    Kun Zhang
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 01--05 Aug
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v180"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v180
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v180
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2022/
+  location: Eindhoven, The Netherlands
+  dates:
+  - 2022-08-01
+  - 2022-08-02
+  - 2022-08-03
+  - 2022-08-04
+  - 2022-08-05
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v180/uai22.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v180/uai22.bib
