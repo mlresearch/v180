@@ -46,7 +46,5 @@ pdf: https://proceedings.mlr.press/v180/bhattacharya22a/bhattacharya22a.pdf
 extras:
 - label: Supplementary PDF
   link: https://proceedings.mlr.press/v180/bhattacharya22a/bhattacharya22a-supp.pdf
-- label: Supplementary ZIP
-  link: https://proceedings.mlr.press/v180/bhattacharya22a/bhattacharya22a-supp.zip
 # Format based on citeproc: http://blog.martinfenner.org/2013/07/30/citeproc-yaml-for-bibliographies/
 ---
